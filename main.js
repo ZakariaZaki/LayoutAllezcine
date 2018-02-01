@@ -1,11 +1,3 @@
-// Variables
-let moviesFeed = 'https://laurenthu.github.io/AllezCine/shops/database/movies.json';
-let tvShowsFeed = 'https://laurenthu.github.io/AllezCine/shops/database/tvshows.json';
-let numberElement = 6;
-let numberElementShop = 8;
-
-let dataRequestMovie = new XMLHttpRequest();
-let dataRequestTvShow = new XMLHttpRequest();
 
 let movieObject; // to be sure that object has a global scope
 let tvShowObject;
