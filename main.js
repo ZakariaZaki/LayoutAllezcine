@@ -1,5 +1,5 @@
-
-$(window).on('load', function() { // age check modal on page load
+// age check modal on page load
+$(window).on('load', function() {
   $('#ageWarning').modal('show');
 });
 
